@@ -60,9 +60,12 @@ a.btn.btn-primary.rounded-pill.main-btn {
 }
 /* End Navbar */
 
-/* Start login */
 button.btn.btn-primary {
     background-color: var(--green-color);
     border-color: var(--green-color);
 }
-/* End login */
+
+.col-6.align-self-center.p-5 {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+}
