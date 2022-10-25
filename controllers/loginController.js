@@ -64,7 +64,7 @@ const loginUser = (req, res, next) => {
 const logoutUser = (req, res) => {
     req.session.destroy(function (err) {
         req.user = null;
-        res.redirect("/dashboard"); //Inside a callback… bulletproof!
+        res.redirect("/dashboard");
     });
 };
 
